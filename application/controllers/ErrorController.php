@@ -3,6 +3,10 @@
 class ErrorController extends Zend_Controller_Action
 {
 
+    /**
+     * @author Mohamed
+     * @return void
+     */
     public function errorAction()
     {
         $errors = $this->_getParam('error_handler');
