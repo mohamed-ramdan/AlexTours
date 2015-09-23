@@ -16,6 +16,7 @@ class UserController extends Zend_Controller_Action
     public function addAction()
     {
         // action body
+        $this->view->form = new Application_Form_Signup();
     }
 
     public function editAction()
